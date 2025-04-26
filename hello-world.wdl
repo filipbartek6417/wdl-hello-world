@@ -26,11 +26,7 @@ task say_hello {
   }
 
   runtime {
-        memory: memSizeGB + " GB"
-        cpu: threadCount
-        disks: "local-disk " + disk_size + " SSD"
         docker: "ubuntu:latest"
-        preemptible: preempts
   }
 }
 
