@@ -2,5 +2,5 @@ version: 1.2
 workflows:
   - name: hello-world
     subclass: WDL
-    primaryDescriptorPath: hello-world.wdl
+    primaryDescriptorPath: /hello-world.wdl
     testParameterFiles: []
